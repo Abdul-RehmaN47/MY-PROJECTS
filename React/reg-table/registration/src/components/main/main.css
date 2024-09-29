@@ -1,0 +1,58 @@
+/* Base styles (for larger screens) */
+.box {
+    margin: 0 auto; /* Center the form in the middle */
+    max-width: 600px; /* Set a maximum width for larger screens */
+    width: 90%; /* Ensure it takes 90% of the container */
+    box-sizing: border-box; /* Include padding in the element's total width */
+}
+
+.textarea {
+    width: 100%; /* Make textarea full width of the box */
+    max-width: 100%; /* Allow full width */
+    margin-left: 0; /* Reset margin-left */
+    padding: 8px; /* Add some padding for better UX */
+}
+
+/* Prevent horizontal scrolling for small screens */
+@media (max-width: 400px) {
+    .box {
+        width: 95%; /* Adjust width for small devices */
+    }
+}
+
+/* Small devices (phones) */
+@media (max-width: 575.98px) {
+    .box {
+        margin: 0 10px; /* Gave it a bit more breathing room */
+    }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .box {
+        margin: 0 30px; /* Adjust margin for tablets */
+    }
+}
+
+/* Larger tablets and small laptops */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .box {
+        margin: 0 60px; /* Adjust margin for larger tablets */
+    }
+}
+
+/* Large screens */
+@media (min-width: 992px) {
+    .box {
+        margin: 0 auto; /* Centered with auto margin */
+        max-width: 600px; /* Maintain a smaller max width */
+    }
+}
+
+/* Extra large screens */
+@media (min-width: 1200px) {
+    .box {
+        margin: 0 auto; /* Centered with auto margin */
+        max-width: 600px; /* Maintain a smaller max width */
+    }
+}
