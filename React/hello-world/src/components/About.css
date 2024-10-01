@@ -1,0 +1,15 @@
+.cardbody{
+    max-width: 700px;
+}
+.gold{
+    color: #FFD700;
+    font: 2em sans-serif;
+    margin-left: 11px;
+}
+.white{
+    color: white;
+}
+.about{
+    color:#FFD700;
+    margin: 25px 0 30px 0;
+}

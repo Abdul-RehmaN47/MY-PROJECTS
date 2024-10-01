@@ -1,0 +1,48 @@
+.con {
+    width: 90%;
+    max-width: 600px; 
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #FFD700;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #333;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #FFD700;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    background-color: #444;
+    color: #fff;
+  }
+  
+  .message-box {
+    height: 100px; 
+    resize: vertical;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: #bbb; 
+  }
+  
+  @media (max-width: 576px) {
+    .con {
+      padding: 15px;
+    }
+  
+    .input {
+      margin: 5px 0;
+    }
+  
+    .btn {
+      width: 100%; 
+    }
+  }
+  .label{
+    color:whitesmoke
+  }
